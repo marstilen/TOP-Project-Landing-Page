@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+footer, 
+header{
+    background-color: #1f2937;
+    color: #E5E7EB;
+}
+.bigAndBold{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.header{
+    display: flex; 
+    justify-content: space-between;
+}
+.headerLogo{
+    width: 15vw;;
+    height: auto;
+    margin: 5px;
+    margin-left: 20vw;
+}
+.headerLinks{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 10px;
+    margin-right: 15vw;
+}
+
+.headerLinks a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+header button{
+background-color: #3882F6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+.heroText{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+.heroImage{
+    height: 300px;
+    padding-top: 15vw;;
+}
+.bottomOfHero{
+    display: flex;
+}
