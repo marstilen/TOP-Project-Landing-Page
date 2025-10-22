@@ -1,6 +1,11 @@
+* {
+}
+
 body{
     margin: 0;
     padding: 0;
+    font-family: 'roboto';
+    box-sizing:border-box;
 }
 
 footer, 
@@ -40,7 +45,8 @@ h1{
     color: #E5E7EB;
 }
 
-header button{
+header button,
+main button{
 background-color: #3882F6;
   border: none;
   color: white;
@@ -73,8 +79,10 @@ background-color: #3882F6;
 }
 
 .card-container{
+    height: 50vh;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 
  .card {
@@ -95,5 +103,37 @@ background-color: #3882F6;
     font-size: 36px;
     color: #1F2937;
     font-weight: 300;
-    padding:200px 100px;
+    padding:200px 50px;
+}
+.username{
+    font-weight: 800;
+    margin: 15vw;
+}
+.call-to-action{
+    background-color: #3882F6;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    border-radius: 20px;
+    padding: 20px;
+    color: #E5E7EB;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+}
+.call-to-action h3{
+    font-weight: 800;
+}
+.call-to-action button{
+    border-color:#E5E7EB;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+footer{
+    height: 10vw;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
